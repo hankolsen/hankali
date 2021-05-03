@@ -15,7 +15,8 @@ netcat \
 net-tools \
 less \
 python3-pip \
-vim
+vim \
+zsh
 
 # Install Kali stuff
 RUN apt-get -y --no-install-recommends install \
@@ -27,8 +28,7 @@ hydra \
 john \
 metasploit-framework \
 nmap \
-wordlists \
-zsh
+wordlists 
 
 # Install Oh My Zsh
 RUN sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

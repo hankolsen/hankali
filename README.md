@@ -1,14 +1,47 @@
-# Hank/Kali
-My own Kali Linux docker image
+# Han-K-ali
+![MIT License](https://img.shields.io/badge/license-MIT-blue)
 
-## Build 
+A simple Docker project to run Kali Linux anywhere
+## Included tools
+- dirbuster 
+- enum4linux 
+- exploitdb 
+- gobuster 
+- hydra 
+- john 
+- metasploit-framework 
+- nmap 
+- wordlists
 
-```docker-compose build```
+zsh (and oh-my-zsh) is installed as the default shell
 
-## Run
+### Usage 
+It's as simple as 1-2-3
 
-```docker-compose up -d```
 
-## Connect
+1. Build
+```sh
+docker-compose build
+```
 
-```docker exec -it hankali /bin/zsh```
+2. Run
+
+```sh
+docker-compose up -d
+```
+
+3. Connect
+
+```sh
+docker exec -it hankali /bin/zsh
+```
+
+### Alternative use
+The main reason for using docker-compose is to make it simple to use volumes to store for instance locatedb between sessions, but you could also run it without docker-compose:
+
+```sh
+docker build -t hankali .
+```
+```sh
+docker run -it hankali
+```
