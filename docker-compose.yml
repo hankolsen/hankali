@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  hankali:
+    build: .
+    container_name: hankali
+    hostname: hankali
+    stdin_open: true  # docker run -i
+    tty: true         # docker run -t
+    volumes: 
+      - kali-mlocate:/var/lib/mlocate
+
+volumes:
+  kali-mlocate:
