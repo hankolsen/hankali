@@ -36,4 +36,4 @@ COPY config/.zshrc /root/.zshrc
 
 RUN apt-get clean -y
 
-ENTRYPOINT ["/bin/zsh"]
+CMD ["/bin/zsh"]
