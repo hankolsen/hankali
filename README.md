@@ -1,5 +1,9 @@
 # Han-K-ali
-![MIT License](https://img.shields.io/badge/license-MIT-blue)
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/hankdelang/hankali?style=for-the-badge)
+![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/hankdelang/hankali?style=for-the-badge)
+![Docker Image Version (latest semver)](https://img.shields.io/docker/v/hankdelang/hankali?style=for-the-badge)
+![Docker Pulls](https://img.shields.io/docker/pulls/hankdelang/hankali?style=for-the-badge)
+![MIT License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 
 A simple Docker project to run Kali Linux anywhere
 ## Included tools
