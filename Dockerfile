@@ -7,6 +7,7 @@ RUN apt-get -y update --fix-missing \
 RUN apt-get -y install \
 curl \
 git \
+iputils-ping \
 mlocate \
 netcat \
 net-tools \
@@ -24,7 +25,6 @@ enum4linux \
 exploitdb \
 gobuster \
 hydra \
-iputils-ping \
 john \
 metasploit-framework \
 nmap \

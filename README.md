@@ -14,8 +14,10 @@ A simple Docker project to run Kali Linux anywhere. With inspiration from [Mario
 - gobuster 
 - hydra 
 - john 
+- LinPEAS
 - metasploit-framework 
 - nmap 
+- seclists
 - wordlists
 
 zsh (and oh-my-zsh) is installed as the default shell
