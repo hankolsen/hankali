@@ -8,16 +8,16 @@
 A simple Docker project to run Kali Linux anywhere. With inspiration from [Mario Raciti](https://github.com/tsumarios/Kali-Linux-Dockerfile)
 
 ## Included tools
-- dirbuster 
 - enum4linux 
 - exploitdb 
 - gobuster 
+- hashcat
 - hydra 
 - john 
 - LinPEAS
-- metasploit-framework 
 - nmap 
 - seclists
+- sublist3r
 - wordlists
 
 zsh (and oh-my-zsh) is installed as the default shell
